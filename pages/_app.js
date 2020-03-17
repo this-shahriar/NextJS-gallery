@@ -1,7 +1,7 @@
 import 'antd/dist/antd.css';
 // import App from 'next/app'
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
     return <Component {...pageProps} />
   }
   
@@ -17,4 +17,4 @@ function MyApp({ Component, pageProps }) {
 //     return { ...appProps }
 //   }
   
-  export default MyApp
+  export default  App
